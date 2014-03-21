@@ -39,7 +39,7 @@ Now you can visit the service at http://localhost:3000
 
 ## How to use
 
-## Include middleware
+## Included middleware
 
 Here is the middleware table compare to Express 4.0
 
