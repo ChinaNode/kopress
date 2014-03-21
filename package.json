@@ -13,7 +13,18 @@
   "author": "Pana",
   "license": "MIT",
   "dependencies": {
+    "co": "~3.0.4",
     "koa": "~0.5.0",
-    "co": "~3.0.4"
+    "koa-body": "0.0.4",
+    "koa-compose": "^2.2.0",
+    "koa-compress": "^1.0.3",
+    "koa-ejs": "0.0.2",
+    "koa-favi": "^0.1.0",
+    "koa-logger": "^1.2.0",
+    "koa-qs": "^1.0.0",
+    "koa-router": "^3.1.0",
+    "koa-send": "^1.2.3",
+    "koa-static": "^1.4.3",
+    "qs": "^0.6.6"
   }
 }
