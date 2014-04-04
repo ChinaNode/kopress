@@ -3,17 +3,17 @@ kopress
 
 TJ's new framework [Koa](https://github.com/koajs/koa) is a prettry awesome thing, enable us
 write asynchronous code in a more enjoyable way. But koa is more like Connect, only have the
-basic HTTP methods and functional. And TJ [has no plan](https://github.com/koajs/koa/issues/239#issuecomment-37491315)
+basic HTTP methods and function. And TJ [has no plan](https://github.com/koajs/koa/issues/239#issuecomment-37491315)
 for a express like framework. So we create the Kopress.
 
-Kopress is based on koa, and more like express. It provide complete server functional
+Kopress is based on koa, and more like express. It provide complete server function
  such as router, template, logger, session and so on. Kopress's target is
-  `same functional as express, used like express, no callback`.
+  `same function as express, used like express, no callback`.
 
 ## Current status
 kopress now is just a application generator just like [express generator](https://github.com/expressjs/generator).
 it is a command line tool which can generate a basic kopress application. A kopress application is koa plus serveral
-most common use http middleware. In the future we will proceed a lot deep develop to reach our target.
+most common used http middleware. In the future we will proceed a lot deep develop to reach our target.
 
 Koa now is just 0.5, and the middlewares are not mature, Kopress will keep update for koa and better middleware.
 
