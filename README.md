@@ -43,7 +43,7 @@ Now you can visit the service at http://localhost:3000
 
 Here is the middleware table compare to Express 4.0
 
-| Kopress | Express 4.0 Name |
+| Kopress | Express 4.0 |
 |:---:|:---:|
 | koa-body | body-parser |
 | koa-compress | compression |
