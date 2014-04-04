@@ -17,8 +17,6 @@ most common use http middleware. In the future we will proceed a lot deep develo
 
 Koa now is just 0.5, and the middlewares are not mature, Kopress will keep update for koa and better middleware.
 
-[co-express](https://github.com/mciparelli/co-express) is a interesting module, that enables generators to be used as middlewares.
-[api-boilerplate](https://github.com/koajs/api-boilerplate) is a koa api service develop boilerplate.
 
 
 ## Install
@@ -72,8 +70,12 @@ middleware, for now just provide ejs template support with [koa-ejs](https://git
 * provide same api to express
 
 
-## Open source
-Kopress is a open source project, pull request are welcome.
+## Related project
+* [koan](https://github.com/soygul/koan) KOAN Stack (Koa, Angular, Node, Mongo, WebSockets) for real-time full-stack JavaScript web development.
+* [co-express](https://github.com/mciparelli/co-express) is a interesting module, that enables generators to be used as middlewares.
+* [api-boilerplate](https://github.com/koajs/api-boilerplate) is a koa api service develop boilerplate.
+* [okey](https://github.com/dead-horse/okey) a high layer framework base on koa
+
 
 
 ## Resource
@@ -84,6 +86,12 @@ Kopress is a open source project, pull request are welcome.
 * [co](https://github.com/visionmedia/co)
 * [co compatible module](https://github.com/visionmedia/co/wiki)
 * [express generator](https://github.com/expressjs/generator)
+
+
+## Open source
+Kopress is a open source project, pull request are welcome.
+
+
 
 
 ## License
