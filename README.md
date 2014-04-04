@@ -1,9 +1,9 @@
 kopress
 =======
 
-TJ's new framework [Koa](https://github.com/koajs/koa) is a prettry awesome thing, enable us 
-write asynchronous code in a more enjoyable way. But koa is more like Connect, only have the 
-basic HTTP methods and functional. And TJ [has no plan](https://github.com/koajs/koa/issues/239#issuecomment-37491315) 
+TJ's new framework [Koa](https://github.com/koajs/koa) is a prettry awesome thing, enable us
+write asynchronous code in a more enjoyable way. But koa is more like Connect, only have the
+basic HTTP methods and functional. And TJ [has no plan](https://github.com/koajs/koa/issues/239#issuecomment-37491315)
 for a express like framework. So we create the Kopress.
 
 Kopress is based on koa, and more like express. It provide complete server functional
@@ -43,22 +43,21 @@ Now you can visit the service at http://localhost:3000
 
 Here is the middleware table compare to Express 4.0
 
-```
-Kopress               Express 4.0 Name
-koa-body              body-parser       
-koa-compress          compression       
---------              cookie-session    
-koa-logger            morgan            
---------              cookie-parser
-session               express-session    
-koa-favi              static-favicon
-koa-response          response-time    
-koa-error             errorhandler     
-koa-method-override   method-override   
---------              connect-timeout   
---------              vhost
-csrf                  csurf            
-```
+| Kopress | Express 4.0 Name |
+|:---:|:---:|
+| koa-body | body-parser |
+| koa-compress | compression |
+| - | cookie-session |
+| koa-logger | morgan |
+| - | cookie-parser |
+|session | express-session |
+|koa-favi | static-favicon |
+|koa-response | response-time |
+|koa-error | errorhandler |
+|koa-method-override | method-override |
+| - | connect-timeout |
+|koa-vhost | vhost |
+|csrf | csurf |
 
 Kopress use [koa-router](https://github.com/alexmingoia/koa-router) as default router
 middleware, for now just provide ejs template support with [koa-ejs](https://github.com/dead-horse/koa-ejs), also use the [koa-qs](https://github.com/koajs/qs) parse querystring.
