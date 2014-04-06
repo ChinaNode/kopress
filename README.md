@@ -17,16 +17,13 @@ most common used http middleware. In the future we will proceed a lot deep devel
 
 Koa now is just 0.5, and the middlewares are not mature, Kopress will keep update for koa and better middleware.
 
-
-
 ## Install
 ```
 $ npm install -g kopress-generator
 ```
 
-
 ## Quick Start
-```
+```bash
 $ kopress /tmp/appname
 $ cd /tmp/appname && npm install
 $ node app.js
@@ -48,34 +45,32 @@ Here is the middleware table compare to Express 4.0
 | - | cookie-session |
 | koa-logger | morgan |
 | - | cookie-parser |
-|session | express-session |
-|koa-favi | static-favicon |
-|koa-response | response-time |
-|koa-error | errorhandler |
-|koa-method-override | method-override |
+| session | express-session |
+| koa-favi | static-favicon |
+| koa-response | response-time |
+| koa-error | errorhandler |
+| koa-method-override | method-override |
 | - | connect-timeout |
-|koa-vhost | vhost |
-|csrf | csurf |
+| koa-vhost | vhost |
+| csrf | csurf |
 
-Kopress use [koa-router](https://github.com/alexmingoia/koa-router) as default router
-middleware, for now just provide ejs template support with [koa-ejs](https://github.com/dead-horse/koa-ejs), also use the [koa-qs](https://github.com/koajs/qs) parse querystring.
+Kopress also use these middlewares:
 
+- [koa-router](https://github.com/alexmingoia/koa-router) as default router middleware
+- [koa-views](https://github.com/queckezz/koa-views) provide almost any template engine support
+- [koa-qs](https://github.com/koajs/qs) parse querystring
 
 ## TODO
 
 * cookie & session
-* support more template engine
 * bodyParser
 * provide same api to express
-
 
 ## Related project
 * [koan](https://github.com/soygul/koan) KOAN Stack (Koa, Angular, Node, Mongo, WebSockets) for real-time full-stack JavaScript web development.
 * [co-express](https://github.com/mciparelli/co-express) is a interesting module, that enables generators to be used as middlewares.
 * [api-boilerplate](https://github.com/koajs/api-boilerplate) is a koa api service develop boilerplate.
 * [okey](https://github.com/dead-horse/okey) a high layer framework base on koa
-
-
 
 ## Resource
 
@@ -89,9 +84,6 @@ middleware, for now just provide ejs template support with [koa-ejs](https://git
 
 ## Open source
 Kopress is a open source project, pull request are welcome.
-
-
-
 
 ## License
 (The MIT License)
